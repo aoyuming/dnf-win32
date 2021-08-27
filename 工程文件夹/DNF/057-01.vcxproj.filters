@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="引擎">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="引擎\场景">
+      <UniqueIdentifier>{d694fb55-f8c7-44fb-b416-fb6459e379b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\场景\切换">
+      <UniqueIdentifier>{308d7291-4d74-4f43-ace4-d63a905aa53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\场景\切换\具体切换">
+      <UniqueIdentifier>{9bcc7fa6-6af0-4df7-97b8-997fee860c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\场景\控件">
+      <UniqueIdentifier>{2e3de751-bde2-4a26-b222-5067efdc6262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\场景\控件\具体控件">
+      <UniqueIdentifier>{28b28c94-b2bb-4486-a732-f5696513ef8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\工具">
+      <UniqueIdentifier>{8959168c-f737-40fe-a8f6-d552fd537ab8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\工具\输入">
+      <UniqueIdentifier>{c5c6cce0-cbc8-4e2c-909a-50e420c5cde8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\工具\输出">
+      <UniqueIdentifier>{be82751e-1512-47c1-9a87-b4de4895719b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\工具\输出\渲染器父类">
+      <UniqueIdentifier>{53079643-5ed3-443b-9bb6-b9181a20d290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\工具\输出\具体渲染器">
+      <UniqueIdentifier>{92088f1b-c7c3-4352-9f2f-3487dbdeadb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\工具\文件">
+      <UniqueIdentifier>{06a5230e-3b74-4325-8622-1ccf08a23c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\工具\音频">
+      <UniqueIdentifier>{b7241f7f-e0b0-4020-af09-cb1fbb3fcb23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\网络-客户端">
+      <UniqueIdentifier>{76494e0b-ab1a-4079-936a-318507e7189c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="入口">
+      <UniqueIdentifier>{08fc7e66-fed0-446a-8bc0-16eafabd106b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\英雄">
+      <UniqueIdentifier>{380ad93d-1e0b-4c9c-8188-689019b285bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\技能">
+      <UniqueIdentifier>{11f19c9a-48a0-4d20-9221-2c51babcbf6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\网络协议">
+      <UniqueIdentifier>{b427ed03-2cf4-4eb2-96f0-d8a6f38742c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\技能\移动射击">
+      <UniqueIdentifier>{b1333970-f10b-4590-a5f5-34a8abff02a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\场景">
+      <UniqueIdentifier>{c91a85f1-f8f3-4bb0-907c-9e415564da9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\场景\登录场景">
+      <UniqueIdentifier>{444e8c1d-527b-48d8-8811-d69380822cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\场景\选择角色">
+      <UniqueIdentifier>{53911769-d9e2-471c-a3a7-4014ba3b3ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\场景\漫画">
+      <UniqueIdentifier>{c7bf0c90-99d5-4711-9d20-179ae7e682e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\场景\城镇">
+      <UniqueIdentifier>{621f332b-822f-46af-a533-ae534e7be0bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\定义的宏">
+      <UniqueIdentifier>{1d0240f8-e260-49e9-87f6-d7107c536d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\技能\技能父类">
+      <UniqueIdentifier>{122a6f24-6ba8-49b1-80ec-13a59aee304b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\武器">
+      <UniqueIdentifier>{4391f364-ff3b-4441-ab07-fb3a65ee150e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\武器\手炮">
+      <UniqueIdentifier>{2dc550f7-044d-4e6b-80fb-3f08be0ee5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\场景\决斗">
+      <UniqueIdentifier>{1fbd7b99-e68d-44d7-a0ff-eed531bd09c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\技能\子弹">
+      <UniqueIdentifier>{48b11fce-6f94-4566-b704-c74cd575067d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\技能伤害字符串">
+      <UniqueIdentifier>{c35f6946-dcac-4df3-ad60-334a9bffaba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\技能\卫星射线">
+      <UniqueIdentifier>{9ee68faf-e778-4c1d-87bb-474eab3c4885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\场景\选择房间">
+      <UniqueIdentifier>{d3829180-d522-4f94-9d59-cac507849c40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>引擎\场景</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChange.cpp">
+      <Filter>引擎\场景\切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Enter1.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Enter2.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Enter3.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Enter4.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Quit1.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Quit2.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Quit3.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="Quit4.cpp">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>引擎\场景\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpButtonUI.cpp">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonUI.cpp">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClCompile>
+    <ClCompile Include="EditUI.cpp">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectUI.cpp">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInput.cpp">
+      <Filter>引擎\工具\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOutput.cpp">
+      <Filter>引擎\工具\输出\渲染器父类</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOutputD3D.cpp">
+      <Filter>引擎\工具\输出\具体渲染器</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOutputGDI.cpp">
+      <Filter>引擎\工具\输出\具体渲染器</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadFile.cpp">
+      <Filter>引擎\工具\文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteFile.cpp">
+      <Filter>引擎\工具\文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>引擎\工具\音频</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>引擎\网络-客户端</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient.cpp">
+      <Filter>引擎\网络-客户端</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>入口</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>游戏\英雄</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill_Move_Shooting.cpp">
+      <Filter>游戏\技能\移动射击</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>游戏\场景\登录场景</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>游戏\场景\选择角色</Filter>
+    </ClCompile>
+    <ClCompile Include="ManHuaScene.cpp">
+      <Filter>游戏\场景\漫画</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>游戏\技能\技能父类</Filter>
+    </ClCompile>
+    <ClCompile Include="hcan.cpp">
+      <Filter>游戏\武器\手炮</Filter>
+    </ClCompile>
+    <ClCompile Include="chengzheng.cpp">
+      <Filter>游戏\场景\城镇</Filter>
+    </ClCompile>
+    <ClCompile Include="juedou.cpp">
+      <Filter>游戏\场景\决斗</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>游戏\技能\子弹</Filter>
+    </ClCompile>
+    <ClCompile Include="harm_string.cpp">
+      <Filter>游戏\技能伤害字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="skill_SatelliteRay.cpp">
+      <Filter>游戏\技能\卫星射线</Filter>
+    </ClCompile>
+    <ClCompile Include="XueZheFangJian.cpp">
+      <Filter>游戏\场景\选择房间</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine.h">
+      <Filter>引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>引擎\场景</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChange.h">
+      <Filter>引擎\场景\切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Enter1.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Enter2.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Enter3.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Enter4.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Quit1.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Quit2.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Quit3.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="Quit4.h">
+      <Filter>引擎\场景\切换\具体切换</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>引擎\场景\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpButtonUI.h">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonUI.h">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClInclude>
+    <ClInclude Include="EditUI.h">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectUI.h">
+      <Filter>引擎\场景\控件\具体控件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInput.h">
+      <Filter>引擎\工具\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOutput.h">
+      <Filter>引擎\工具\输出\渲染器父类</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOutputD3D.h">
+      <Filter>引擎\工具\输出\具体渲染器</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOutputGDI.h">
+      <Filter>引擎\工具\输出\具体渲染器</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadFile.h">
+      <Filter>引擎\工具\文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteFile.h">
+      <Filter>引擎\工具\文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>引擎\工具\音频</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>引擎\工具\音频</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>引擎\网络-客户端</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>引擎\网络-客户端</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient.h">
+      <Filter>引擎\网络-客户端</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>游戏\英雄</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill_Move_Shooting.h">
+      <Filter>游戏\技能\移动射击</Filter>
+    </ClInclude>
+    <ClInclude Include="DNFprotocol.h">
+      <Filter>游戏\网络协议</Filter>
+    </ClInclude>
+    <ClInclude Include="2.h">
+      <Filter>游戏\场景\选择角色</Filter>
+    </ClInclude>
+    <ClInclude Include="1.h">
+      <Filter>游戏\场景\登录场景</Filter>
+    </ClInclude>
+    <ClInclude Include="ManHuaScene.h">
+      <Filter>游戏\场景\漫画</Filter>
+    </ClInclude>
+    <ClInclude Include="define_.h">
+      <Filter>游戏\定义的宏</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>游戏\技能\技能父类</Filter>
+    </ClInclude>
+    <ClInclude Include="hcan.h">
+      <Filter>游戏\武器\手炮</Filter>
+    </ClInclude>
+    <ClInclude Include="chengzheng.h">
+      <Filter>游戏\场景\城镇</Filter>
+    </ClInclude>
+    <ClInclude Include="juedou.h">
+      <Filter>游戏\场景\决斗</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>游戏\技能\子弹</Filter>
+    </ClInclude>
+    <ClInclude Include="harm_string.h">
+      <Filter>游戏\技能伤害字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="skill_SatelliteRay.h">
+      <Filter>游戏\技能\卫星射线</Filter>
+    </ClInclude>
+    <ClInclude Include="XueZheFangJian.h">
+      <Filter>游戏\场景\选择房间</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
